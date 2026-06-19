@@ -1,5 +1,5 @@
 #projects-section {
-    padding-block: 24px;
+    padding-block: 32px;
     gap: 16px;
     & > span {
         color: var(--red);
