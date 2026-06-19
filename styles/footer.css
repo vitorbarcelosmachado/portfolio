@@ -1,0 +1,32 @@
+footer {
+    gap: 12px;
+    padding-block: 50px;
+    span {
+        color: var(--purple);
+    }
+}
+#contact-links {
+    padding-block: 32px 16px;
+    gap: 16px;
+    width: 500px;
+    img {
+        width: 28px;
+    }
+    div {
+        position: relative;
+        background-color: var(--interface-color);
+        width: 100%;
+        padding: 24px;
+        border-radius: 16px;
+        a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            & img:nth-child(3) {
+                position: absolute;
+                right: 24px;
+            }
+        }
+    }
+}
