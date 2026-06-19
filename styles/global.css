@@ -19,13 +19,14 @@
     --text-sm: 600 1.4em "Inconsolata", sans-serif;
 }
 body {
-    width: 100vw;
+    width: 100%;
     background-color: var(--bg-color);
     color: var(--secondary-color);
-    padding-inline: 30vw;
+    padding-inline: 20vw;
     background-image: url(../assets/img/Background_Intro.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 h1 {
     font: bold 3.5em "Asap", sans-serif;
@@ -41,6 +42,7 @@ h3 {
 }
 span {
     font: var(--text-md);
+    color: var(--secondary-color);
 }
 p {
     font: var(--text-sm);
