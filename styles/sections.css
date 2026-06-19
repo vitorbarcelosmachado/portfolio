@@ -31,3 +31,32 @@
         }
     }
 }
+#services {
+    gap: 12px;
+    width: 100%;
+    padding-block: 50px 100px;
+    background-color: var(--secondary-bg-color);
+    & > div {
+        margin-top: 24px;
+        gap: 16px;
+        div {
+            max-width: 350px;
+            height: 180px;
+            padding: 16px;
+            border-radius: 8px;
+            gap: 8px;
+            img {
+                width: 15%;
+            }
+        }
+        & div:nth-child(1) {
+            border: 3px solid var(--purple);
+        }
+        & div:nth-child(2) {
+            border: 3px solid var(--yellow);
+        }
+        & div:nth-child(3) {
+            border: 3px solid var(--green);
+        }
+    }
+}
