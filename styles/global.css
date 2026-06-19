@@ -22,11 +22,6 @@ body {
     width: 100%;
     background-color: var(--bg-color);
     color: var(--secondary-color);
-    padding-inline: 20vw;
-    background-image: url(../assets/img/Background_Intro.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 h1 {
     font: bold 3.5em "Asap", sans-serif;

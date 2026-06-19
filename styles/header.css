@@ -1,8 +1,12 @@
 
 header {
-    height: 90vh;
+    height: 92vh;
     padding-block: 10vh;
+    padding-inline: 50vh;
     justify-content: space-between;
+    background-image: url(../assets/img/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #profile {
     position: relative;
