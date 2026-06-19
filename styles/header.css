@@ -1,0 +1,45 @@
+
+header {
+    height: 90vh;
+    padding-block: 10vh;
+    justify-content: space-between;
+}
+#profile {
+    position: relative;
+    & img:nth-child(1) {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid var(--red);
+    }
+    & img:nth-child(2) {
+        width: 50px;
+        position: absolute;
+        right: 6px;
+        bottom: 0;
+    }
+}
+#presentation {
+    gap: 1em;
+    text-align: center;
+    & p:nth-child(1) {
+        font: 600 1.6em "Inconsolata", sans-serif;
+        color: var(--secondary-color);
+        span {
+            color: var(--red);
+        }
+    }
+}
+#tech-list {
+    gap: 1em;
+    margin-block: 1.5em;
+    flex-wrap: wrap;
+    div {
+        background-color: var(--interface-color);
+        padding: 0.6em;
+        border-radius: 14px;
+        gap: 10px;
+    }
+}   

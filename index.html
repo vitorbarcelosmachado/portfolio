@@ -3,44 +3,49 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Vitor</title>
 
     <link rel="stylesheet" href="./styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div id="profile-pic">
+<body class="flex direction-col align-items-center">
+    <header class="flex direction-col align-items-center">
+        <div id="profile">
             <img src="./assets/profile-pic.jpeg" alt="Foto de perfil">
             <img src="./assets/icons/code-icon.svg" alt="Ícone de código">
         </div>
-        <span>Olá, meu nome é Vitor Barcelos e sou</span>
-        <h1>Desenvolvedor Fullstack</h1>
-        <p>
-            Transformo necessidades em aplicações reais, resolvo problemas e faço sites intuitivos, acessíveis, e responsivos.
-        </p>
-        <div id="tech-list">
-            <div>
+        <section id="presentation" class="flex direction-col align-items-center">
+            <p>Olá, meu nome é <span>Vitor Barcelos</span> e sou</p>
+            <h1>Desenvolvedor Fullstack</h1>
+            <p>
+                Transformo necessidades em aplicações reais, resolvo problemas e faço sites intuitivos, acessíveis, e responsivos.
+            </p>
+        </section>
+        <div id="tech-list" class="flex">
+            <div class="align-items-center flex">
                 <img src="./assets/icons/github-icon.png" alt="Github">
                 <span>Github</span>
             </div>
-            <div>
+            <div class="align-items-center flex">
                 <img src="./assets/icons/html-icon.png" alt="HTML">
                 <span>HTML</span>
             </div>
-            <div>
+            <div class="align-items-center flex">
                 <img src="./assets/icons/css-icon.png" alt="CSS">
                 <span>CSS</span>
             </div>
-            <div>
+            <div class="align-items-center flex">
                 <img src="./assets/icons/javascript-logo.png" alt="Javascript">
                 <span>Javascript</span>
             </div>
         </div>
-        <img src="./assets/icons/CaretDoubleDown.png" alt="Icone de flecha apontada para baixo">
     </header>
+    <img src="./assets/icons/CaretDoubleDown.png" alt="Icone de flecha apontada para baixo">
 </body>
 </html>

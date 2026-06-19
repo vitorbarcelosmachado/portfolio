@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-color: #16181D;
+    --secondary-bg-color: #0D0E11;
+    --interface-color: #292C34;
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --primary-color: #E2E4E9;
+    --secondary-color: #C0C4CE;
+    --tertiary-color: #878EA1;
+    --title: bold 2em "Asap", sans-serif;
+    --subtitle: 600 1.8em "Asap", sans-serif;
+    --text-lg: 600 1.6em "Asap", sans-serif;
+    --text-md: 600 1.6em "Inconsolata", sans-serif; 
+    --text-sm: 600 1.4em "Inconsolata", sans-serif;
+}
+body {
+    width: 100vw;
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    padding-inline: 30vw;
+    background-image: url(../assets/img/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font: bold 3.5em "Asap", sans-serif;
+    color: var(--primary-color);
+}
+h2 {
+    font: var(--subtitle);
+    color: var(--primary-color);
+}
+h3 {
+    font: var(--text-lg);
+    color: var(--primary-color);
+}
+span {
+    font: var(--text-md);
+}
+p {
+    font: var(--text-sm);
+    color: var(--tertiary-color);
+}
